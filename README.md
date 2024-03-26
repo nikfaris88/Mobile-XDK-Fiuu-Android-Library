@@ -33,12 +33,12 @@ For additional assistance with Android Studio, refer to our [online documentatio
 
 ## Recommended configurations
 
-Below is the installation guide to implement Fiuu XDK into your project.
+When implementing Razer XDK into your project, consider the following:
 
 
-- Android SDK Version: 26 ++
+- Android SDK Version: 26 or higher
     
-- Android API level: 19 ++
+- Android API Level: 19 or higher
     
 - Android target version: Android 4.4
     
@@ -47,7 +47,7 @@ Below is the installation guide to implement Fiuu XDK into your project.
 
 ## Installation Guidance
 
-Below is the installation guide to implement Razer XDK into your project.
+Feel free to follow the installation guidance provided below to integrate Razer XDK into your project.
 
 [Click me to install now !](https://github.com/Naloff67/Mobile-XDK-RazerMS_Android_Studio/wiki/Installation-Guide)
 
