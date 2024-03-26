@@ -7,8 +7,7 @@ This is the finished and working Razer Merchant Services Android payment module,
 
 # How does it work ?
 
-![image](https://github.com/Naloff67/Mobile-XDK-RazerMS_Android_Studio/assets/89504625/43c14942-7c73-4e4b-b640-b4df668bfa29)
-
+![XDK_android_complete](https://github.com/Naloff67/Mobile-XDK-RazerMS_Android_Library/assets/89504625/7be06fc3-6264-44e9-ad46-6b1af41f768b)
 
 1. User chooses the Payment option/Bank they wish to pay with
 2. Press "Proceed".
