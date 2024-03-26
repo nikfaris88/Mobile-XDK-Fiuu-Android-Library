@@ -40,11 +40,11 @@ public class MainActivity extends AppCompatActivity {
 //        paymentDetails.put(MOLPayActivity.mp_dev_mode, false);
 
         // Mandatory String. Values obtained from MOLPay.
-        paymentDetails.put(MOLPayActivity.mp_username, "RMSxdk_2022");
-        paymentDetails.put(MOLPayActivity.mp_password, "RMSpwd@2022");
-        paymentDetails.put(MOLPayActivity.mp_merchant_ID, "rmsxdk_mobile_Dev");
+        paymentDetails.put(MOLPayActivity.mp_username, "");
+        paymentDetails.put(MOLPayActivity.mp_password, "");
+        paymentDetails.put(MOLPayActivity.mp_merchant_ID, "");
         paymentDetails.put(MOLPayActivity.mp_app_name, "mobile");
-        paymentDetails.put(MOLPayActivity.mp_verification_key, "ee738b541eff7b6b495e44771f71c0ec");
+        paymentDetails.put(MOLPayActivity.mp_verification_key, "");
 
         // Mandatory String. Payment values.
         paymentDetails.put(MOLPayActivity.mp_amount, "1.10"); // Minimum 1.01
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         paymentDetails.put(MOLPayActivity.mp_bill_description, "billdesc");
         paymentDetails.put(MOLPayActivity.mp_bill_name, "billname");
         paymentDetails.put(MOLPayActivity.mp_bill_email, "email@domain.com");
-        paymentDetails.put(MOLPayActivity.mp_bill_mobile, "+1234567");
+        paymentDetails.put(MOLPayActivity.mp_bill_mobile, "+0123456789");
 
         // Optional, allow channel selection.
         // paymentDetails.put(MOLPayActivity.mp_channel_editing, false);
