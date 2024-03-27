@@ -8,7 +8,7 @@
         <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
         <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
         <option name="RES_FOLDERS_RELATIVE_PATH" value="" />
-        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../molpayxdk/src/androidTest/res;file://$MODULE_DIR$/../../../molpayxdk/src/androidTestDebug/res;file://$MODULE_DIR$/../../../molpayxdk/build/generated/res/rs/androidTest/debug;file://$MODULE_DIR$/../../../molpayxdk/build/generated/res/resValues/androidTest/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../molpayxdk/src/androidTest/res;file://$MODULE_DIR$/../../../molpayxdk/src/androidTestDebug/res;file://$MODULE_DIR$/../../../molpayxdk/build/generated/res/resValues/androidTest/debug" />
         <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
         <option name="PROJECT_TYPE" value="1" />
       </configuration>
@@ -17,17 +17,14 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output-test url="file://$MODULE_DIR$/../../../molpayxdk/build/intermediates/javac/debugAndroidTest/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../molpayxdk/build/generated/aidl_source_output_dir/debugAndroidTest/out" />
     <content url="file://$MODULE_DIR$/../../../molpayxdk/build/generated/ap_generated_sources/debugAndroidTest/out" />
-    <content url="file://$MODULE_DIR$/../../../molpayxdk/build/generated/renderscript_source_output_dir/debugAndroidTest/out" />
     <content url="file://$MODULE_DIR$/../../../molpayxdk/build/generated/res/resValues/androidTest/debug" />
-    <content url="file://$MODULE_DIR$/../../../molpayxdk/build/generated/res/rs/androidTest/debug" />
     <content url="file://$MODULE_DIR$/../../../molpayxdk/build/generated/source/buildConfig/androidTest/debug" />
     <content url="file://$MODULE_DIR$/../../../molpayxdk/src/androidTest">
       <sourceFolder url="file://$MODULE_DIR$/../../../molpayxdk/src/androidTest/java" isTestSource="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../../molpayxdk/src/androidTestDebug" />
-    <orderEntry type="jdk" jdkName="Android API 31 Platform" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="Android API 33, extension level 3 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Mobile-XDK-RazerMS_Android_Library.molpayxdk.main" scope="TEST" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.legacy:legacy-support-v4:1.0.0@aar" level="project" />
