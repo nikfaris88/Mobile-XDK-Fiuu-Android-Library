@@ -4,12 +4,10 @@ plugins {
 }
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 33
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 31
-        versionCode 1
-        versionName "1.0"
     }
     buildTypes {
         release {
@@ -21,6 +19,7 @@ android {
         sourceCompatibility(JavaVersion.VERSION_1_8)
         targetCompatibility(JavaVersion.VERSION_1_8)
     }
+    namespace 'com.fiuu.molpayxdk'
 }
 
 dependencies {
@@ -35,10 +34,10 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                from components.release
+                artifact("$buildDir/outputs/aar/${project.getName()}-release.aar")
                 groupId ='com.rms.mobile'
                 artifactId = 'mobile_xdk'
-                version = '3.33.4'
+                version = '3.33.6'
             }
         }
     }

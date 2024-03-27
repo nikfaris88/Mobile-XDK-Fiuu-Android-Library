@@ -4,7 +4,7 @@ android {
     compileSdkVersion 32
 
     defaultConfig {
-        applicationId "com.molpay.molpayxdkproject"
+        applicationId "com.fiuu.xdkproject"
         minSdkVersion 16
         targetSdkVersion 32
         versionCode 1
@@ -16,6 +16,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    namespace 'com.fiuu.xdkproject'
 }
 
 dependencies {
