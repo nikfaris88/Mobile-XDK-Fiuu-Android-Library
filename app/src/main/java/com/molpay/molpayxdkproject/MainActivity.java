@@ -48,12 +48,6 @@ public class MainActivity extends AppCompatActivity {
         paymentDetails.put(MOLPayActivity.mp_bill_name, "bill name");
         paymentDetails.put(MOLPayActivity.mp_bill_email, "example@gmail.com");
         paymentDetails.put(MOLPayActivity.mp_bill_mobile, "123456789");
-//        paymentDetails.put(MOLPayActivity.mp_express_mode, false);
-
-//        paymentDetails.put(MOLPayActivity.mp_credit_card_no, "");
-//        paymentDetails.put(MOLPayActivity.mp_credit_card_expiry, "");
-//        paymentDetails.put(MOLPayActivity.mp_credit_card_cvv, "");
-//        paymentDetails.put(MOLPayActivity.mp_credit_card_bank, "");
 
         // TODO: Learn more about optional parameters here https://github.com/RazerMS/Mobile-XDK-RazerMS_Android_Studio/wiki/Installation-Guidance#prepare-the-payment-detail-object
 //        paymentDetails.put(MOLPayActivity.mp_extended_vcode, false); // For Google Pay Only - Set true if your account enabled extended Verify Payment
